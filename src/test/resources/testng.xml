@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MySuite">
+    <parameter name="baseurl" value="https://www.shutterfly.com/wedding/"></parameter>
+    <listeners>
+        <listener class-name="ui.utils.ScreenShotUtility"></listener>
+    </listeners>
+    <test name="MyTests">
+        <classes>
+            <class name="ui_test.MarqueeUiTest" /> <!-- Change to your test class -->
+        </classes>
+    </test>
+</suite>
