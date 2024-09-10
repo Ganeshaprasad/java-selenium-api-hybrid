@@ -1,12 +1,12 @@
 D:\September-2024\java-selenium-api-hybrid\src\main\java\api\api_utility\ApiUtilty.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\api\constants\EndPointConstants.java
-D:\September-2024\java-selenium-api-hybrid\src\main\java\Base\BaseClass.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\api\pojo\MarqueePojoClass.java
+D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\page_object_repository\BasePOM.java
+D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\utils\ModalUtility.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\page_object_repository\MarqueePOM.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\utils\IPresence.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\utils\ScreenShotUtility.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\utils\GeneralUtility.java
-D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\utils\ModalUtilty.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\api\constants\RestConstants.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\utils\FileUtility.java
 D:\September-2024\java-selenium-api-hybrid\src\main\java\ui\utils\WaitUtility.java
