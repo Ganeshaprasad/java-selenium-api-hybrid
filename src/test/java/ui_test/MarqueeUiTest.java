@@ -25,6 +25,7 @@ public void initializePageObject()
 
         System.out.println(marqueePOM.checkPresenceOfElement());
 
-        Assert.assertTrue(true);
+       Assert.fail();
+       // Assert.assertTrue(true);
     }
 }
