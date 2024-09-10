@@ -1,0 +1,3 @@
+api_test\MarqueeApiTest.class
+ui_test\BaseTest.class
+ui_test\MarqueeUiTest.class
