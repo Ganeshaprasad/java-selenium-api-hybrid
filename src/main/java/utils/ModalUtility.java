@@ -1,4 +1,4 @@
-package ui.utils;
+package utils;
 
 public class ModalUtility {
 }

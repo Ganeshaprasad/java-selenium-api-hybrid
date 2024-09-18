@@ -1,11 +1,10 @@
 package ui_test;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import ui.page_object_repository.MarqueePOM;
-import ui.utils.GeneralUtility;
-import ui.utils.ScreenShotUtility;
+import ui.pom.MarqueePOM;
 
 //@Listeners(ScreenShotUtility.class) --> no need to aad it to every class , we can add it globally by specifying in testng.xml
 public class MarqueeUiTest extends BaseTest {
@@ -16,7 +15,7 @@ public void initializePageObject()
 {
 
     logger.info("Driver initialised for Marquee POM");
-    marqueePOM=new MarqueePOM(driver);
+    marqueePOM=new MarqueePOM(getDriver());
 
 }
     @Test
@@ -24,6 +23,11 @@ public void initializePageObject()
     {
 
         System.out.println(marqueePOM.checkPresenceOfElement());
+       try {
+           getDriver().findElement(By.xpath("//span[text()='Home Decor'")).click();
+       }catch (Exception e) {
+
+       }
 
        Assert.fail();
        // Assert.assertTrue(true);

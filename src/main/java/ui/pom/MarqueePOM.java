@@ -1,10 +1,10 @@
-package ui.page_object_repository;
+package pom;
 
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import ui.utils.IPresence;
+import ui.IPresence;
 
 import java.util.List;
 
