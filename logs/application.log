@@ -1,17 +1,12 @@
-2024-09-10 14:59:06 INFO  Java-Selenium-Api-Hybrid:36 - Chrome browser launched
-2024-09-10 14:59:08 INFO  Java-Selenium-Api-Hybrid:17 - Test executed
-2024-09-10 15:01:24 INFO  Java-Selenium-Api-Hybrid:36 - Chrome browser launched
-2024-09-10 15:01:29 INFO  Java-Selenium-Api-Hybrid:18 - Driver initialised for Marquee POM
-2024-09-10 15:43:57 INFO  Java-Selenium-Api-Hybrid:36 - Chrome browser launched
-2024-09-10 15:43:58 INFO  Java-Selenium-Api-Hybrid:18 - Driver initialised for Marquee POM
-2024-09-10 15:44:48 INFO  Java-Selenium-Api-Hybrid:36 - Chrome browser launched
-2024-09-10 15:44:49 INFO  Java-Selenium-Api-Hybrid:18 - Driver initialised for Marquee POM
-2024-09-10 16:03:14 INFO  Java-Selenium-Api-Hybrid:39 - Chrome browser launched
-2024-09-10 16:03:16 INFO  Java-Selenium-Api-Hybrid:18 - Driver initialised for Marquee POM
-2024-09-10 16:04:05 INFO  Java-Selenium-Api-Hybrid:39 - Chrome browser launched
-2024-09-10 16:04:06 INFO  Java-Selenium-Api-Hybrid:18 - Driver initialised for Marquee POM
-2024-09-10 16:34:27 INFO  Java-Selenium-Api-Hybrid:40 - Chrome browser launched with out Head
-2024-09-10 16:34:27 INFO  Java-Selenium-Api-Hybrid:45 - Chrome browser launched
-2024-09-10 16:34:29 INFO  Java-Selenium-Api-Hybrid:18 - Driver initialised for Marquee POM
-2024-09-10 16:34:47 INFO  Java-Selenium-Api-Hybrid:40 - Chrome browser launched with out Head
-2024-09-10 16:34:49 INFO  Java-Selenium-Api-Hybrid:18 - Driver initialised for Marquee POM
+2024-09-17 16:19:44 INFO  Java-Selenium-Api-Hybrid:50 - Chrome browser launched with GUI
+2024-09-17 16:19:55 INFO  Java-Selenium-Api-Hybrid:19 - Driver initialised for Marquee POM
+2024-09-17 16:19:55 ERROR Java-Selenium-Api-Hybrid:31 - ggggggggggggggggorg.openqa.selenium.InvalidSelectorException: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //span[text()='Home Decor' because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='Home Decor'' is not a valid XPath expression."}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2540f22ef6ce8c959e3e2375e66ec381, findElement {value=//span[text()='Home Decor', using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\prasa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63188/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2540f22ef6ce8c959e3e2375e66ec381

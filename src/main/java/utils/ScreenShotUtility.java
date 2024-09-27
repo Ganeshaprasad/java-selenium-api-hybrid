@@ -1,4 +1,4 @@
-package ui.utils;
+package utils;
 
 
 import org.apache.commons.io.FileUtils;
@@ -7,7 +7,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import ui.page_object_repository.BasePOM;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,6 +22,7 @@ public class ScreenShotUtility  implements ITestListener {
 {
 GeneralUtility generalUtility=new GeneralUtility();
     String dateTime = generalUtility.getDateAndTime();
+
     String testName = result.getName();
     TakesScreenshot screenShot = (TakesScreenshot) driver;
     File src = screenShot.getScreenshotAs(OutputType.FILE);

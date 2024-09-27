@@ -1,8 +1,9 @@
-package ui.page_object_repository;
+package pom;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import ui.utils.*;
+import utils.*;
 
 public class BasePOM  {
 
